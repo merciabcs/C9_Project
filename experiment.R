@@ -20,7 +20,6 @@ lines(x[1:2], y[1:2])
 
 dist12 = round(sqrt((x[2]-x[1])^2 + (y[2]-y[1])^2))
 text(mean(x[1:2]),mean(y[1:2]), paste('~',as.character(dist12),'km'), cex=0.8)
-frame()
 
 
 library(ggfortify)
